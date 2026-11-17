@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Meteocannizza</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="bg" id="bg"></div>
+        <main class="container">
+            <div class="grid">
+                <div></div>
+                <div class="centered">
+                    <h1 id="temp"></h1>
+                    <h2 id="where"></h2>
+                    <h3 id="status"></h3>
+                    <br /><br />
+                    <input
+                        type="text"
+                        id="cityIn"
+                        required
+                        placeholder="Inserisci città qui"
+                    />
+                    <button id="goMeteo">Carica Meteo</button>
+                </div>
+                <div></div>
+            </div>
+        </main>
+    </body>
+    <script src="./app.js"></script>
+</html>
